@@ -174,7 +174,6 @@ class Pyqt5_serial(QtWidgets.QMainWindow, Ui_MainWindow):
             self.timer_receive.start(2)
             # 打开定时绘图
             self.timer_plot.start(50)
-            #self.t1.start()
 
 
         #关闭串口
